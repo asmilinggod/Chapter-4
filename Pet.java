@@ -23,9 +23,9 @@ public class Pet
     public String getName(){
         return this.name;
     }
-    public boolean getAlive;
+  
     public String toString(){
-       return  
+       return "this pet is named " + name + "and is " + age +" years old";
     }
   
     public static void example() {

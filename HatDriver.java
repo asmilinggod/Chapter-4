@@ -8,8 +8,7 @@
 public class HatDriver
 {
     public static void main (String[] args){
-        Hat bowler = new Hat;
-        this.color = clr;
-        this.price = $$;
+        Hat bowler = new Hat("red", 99);
+        
     }   
 }

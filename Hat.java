@@ -11,11 +11,14 @@ public class Hat
         this.price = prc;
     }
     public String getColor(){
-        
+        return this.color;
         
     }
-    public int getPrice(){
-        
+    public double getPrice(){
+        return this.price;
+    }
+    public String toString(){
+        return "$ " + price + "color" + color;
     }
     public void sale(){
         
